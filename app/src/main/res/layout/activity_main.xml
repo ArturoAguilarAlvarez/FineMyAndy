@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.arturo.finemyandy.MainActivity">
+
+    <Button
+        android:text="LogOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btLogOut"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginTop="19dp" />
+
+    <Button
+        android:text="Linterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btVibrar"
+        android:layout_toStartOf="@+id/btLogOut"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btLinterna" />
+
+    <Button
+        android:text="Vibrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:id="@+id/btVibrar"
+        android:layout_below="@+id/btLogOut"
+        android:layout_alignStart="@+id/btLinterna" />
+
+    <Button
+        android:text="sonar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btLinterna"
+        android:layout_alignEnd="@+id/btVibrar"
+        android:layout_marginTop="29dp"
+        android:id="@+id/btSonar" />
+
+    <Button
+        android:text="gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btSonar"
+        android:layout_alignEnd="@+id/btSonar"
+        android:layout_marginTop="33dp"
+        android:id="@+id/btGPS" />
+
+</RelativeLayout>
