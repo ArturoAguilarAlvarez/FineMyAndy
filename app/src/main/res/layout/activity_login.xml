@@ -10,15 +10,6 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.arturo.finemyandy.LoginActivity">
 
-    <Button
-        android:text="next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/btNextMain"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="105dp" />
-
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -49,4 +40,13 @@
         android:layout_below="@+id/password"
         android:layout_marginTop="10dp"
         android:onClick="checkLogin"/>
+
+    <Button
+        android:text="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btNextMain"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="123dp" />
 </RelativeLayout>
